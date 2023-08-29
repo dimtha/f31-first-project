@@ -2,21 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-h1 {
-    width: 50px;
-    height: 40px;
-    border: 1px solid black;
-}
-
-.footer {
-    width: 100px;
-    height: 20px;
-    border: 1px solid black;
-    padding: 15px;
-    margin: 0 auto;    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+  }
+  
+  .container {
+    max-width: 500px; 
+    margin: 0 auto;
+  }
+  
+  body {
+    background: black;
+    color: white;
+  }
